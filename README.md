@@ -1,5 +1,6 @@
 # Landslide Monitoring and Early Prediction 
 IoT based landslide monitoring and early prediction using LoRaWAN network. Rainfall, Soil Moisture, Geophone, Temperature and Humidity sensor integrated with ESP32 microcontroller to collect Real-time data and transfer to cloud via Raspberry Pi Gateway. Supervised, Unsupervised and Physic Informed neural network (PINN) models apply to predict lands
+
 🛠️ Modules & Methodologies
 1. Data & Analysis (/data, /data_analysis, /labeling)
 Data Handling: Ingestion of raw time-series data from the IoT gateway.
@@ -30,3 +31,21 @@ Isolation Forest: Unsupervised anomaly detection, highly effective for identifyi
 
 4. Physics-Informed Neural Networks (/models_pinn)
 Deep learning models constrained by the physical laws of soil mechanics and hydrology. Instead of relying purely on data, the PINN incorporates differential equations governing soil sheer strength and water infiltration, ensuring predictions remain physically viable even with sparse sensor data.
+
+
+🚀 Getting Started
+Prerequisites
+Python 3.8+
+
+Required libraries: scikit-learn, pandas, numpy, scipy, pytorch (or tensorflow for PINN)
+
+Installation
+Clone the repository:
+
+Bash
+git clone [https://github.com/Ushaloy/Landslide.git](https://github.com/Ushaloy/Landslide.git)
+cd Landslide
+Install the required dependencies:
+
+Bash
+pip install -r requirements.txt
