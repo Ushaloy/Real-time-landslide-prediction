@@ -38,14 +38,3 @@ Prerequisites
 Python 3.8+
 
 Required libraries: scikit-learn, pandas, numpy, scipy, pytorch (or tensorflow for PINN)
-
-Installation
-Clone the repository:
-
-Bash
-git clone [https://github.com/Ushaloy/Landslide.git](https://github.com/Ushaloy/Landslide.git)
-cd Landslide
-Install the required dependencies:
-
-Bash
-pip install -r requirements.txt
