@@ -211,8 +211,7 @@ This project opens several exciting avenues for deeper investigation:
 - **Real-time adaptive alerting**: Dynamic threshold adjustment based on seasonal and climate patterns
 - **Digital twin integration**: Coupling the PINN with 3D slope finite element models
 
-These directions are well-suited for **PhD-level investigation** in areas such as:
-`Geotechnical AI` · `IoT Systems` · `Scientific Machine Learning` · `Disaster Risk Reduction`
+
 
 ---
 
