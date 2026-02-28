@@ -245,9 +245,9 @@ This project is positioned at the intersection of several active research commun
 
 If you are a **researcher or professor** working in geohazard monitoring, scientific machine learning, IoT systems, or disaster resilience and are interested in collaboration or have opportunities for graduate research — I would be very glad to connect.
 
-📧 **[Your Email Here]**
-🔗 **[LinkedIn / ResearchGate / Google Scholar]**
-🌐 **[Personal Website / Lab Page]**
+📧 **usahloy.cht@gmail.com**
+🔗 *https://www.linkedin.com/in/ushaloy-chakma-a2801797/**
+
 
 ---
 
