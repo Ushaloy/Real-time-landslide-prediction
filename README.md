@@ -103,17 +103,15 @@ Raw Sensor Streams → Noise Filtering → Feature Engineering → Labeling → 
 Predicts landslide risk level (Low / Medium / High) from labeled historical windows.
 
 Models evaluated:
-- Random Forest, XGBoost, SVM
-- LSTM / GRU (temporal sequence modeling)
-- 1D-CNN for vibration signal classification
+- Random Forest, XGBoost, SVM, k-NN
+  
 
 ### 3. Unsupervised Learning (Anomaly Detection)
 Identifies precursor anomalies without labeled failure events.
 
 Approaches:
 - Isolation Forest
-- Autoencoder-based reconstruction error
-- DBSCAN clustering for regime shift detection
+
 
 ### 4. Physics-Informed Neural Network (PINN)
 The **core research novelty**. The PINN encodes the physics of slope failure directly into the training objective:
@@ -130,8 +128,8 @@ Where `L_physics` enforces:
 This allows the model to **generalize from small datasets** and produce **physically interpretable predictions** — a key advantage over black-box deep learning.
 
 ### 5. Signal Processing
-- FFT and Short-Time Fourier Transform (STFT) on geophone data
-- Bandpass filtering for seismic event detection
+- MA,EMA, Kalman Filter, Guassian filter, Butterworth low pass filter
+- STA/LTA for Geophone
 - Vibration event segmentation and feature extraction
 
 ---
@@ -151,10 +149,10 @@ Landslide/
 │   └── ...                  # Semi-supervised and rule-based labels
 │
 ├── signal processing/       # Geophone signal analysis
-│   └── ...                  # FFT, STFT, bandpass filtering notebooks
+│   └── ...                  # MA, EMA, Kalman Filter notebooks
 │
 ├── Machine Learning/        # Supervised & unsupervised models
-│   └── ...                  # Random Forest, LSTM, Autoencoder, etc.
+│   └── ...                  # Random Forest, SVM, k-NN, Isolation Forest
 │
 ├── PINN/                    # Physics-Informed Neural Network
 │   └── ...                  # PINN architecture, training, results
