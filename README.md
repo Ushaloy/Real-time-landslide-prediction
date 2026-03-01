@@ -139,9 +139,6 @@ This allows the model to **generalize from small datasets** and produce **physic
 ```
 Landslide/
 │
-├── Data/                    # Raw and processed sensor datasets
-│   └── ...                  # CSV files, field measurements
-│
 ├── Data analysis/           # Exploratory Data Analysis (EDA)
 │   └── ...                  # Correlation studies, visualizations
 │
