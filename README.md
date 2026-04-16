@@ -192,7 +192,7 @@ jupyter notebook
 | Random Forest | ~88% | 0.84 | Strong baseline |
 | LSTM | ~91% | 0.87 | Best for temporal patterns |
 | Autoencoder (Anomaly) | — | 0.79 AUC | Unsupervised, no labels needed |
-| **PINN** | **~93%** | **0.90** | **Physics-consistent, data-efficient** |
+
 
 > *Note: Results are from field-collected data. Exact figures may vary with dataset size and hyperparameter tuning.*
 
