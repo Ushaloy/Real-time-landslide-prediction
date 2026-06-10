@@ -246,7 +246,16 @@ If you are a **researcher or professor** working in geohazard monitoring, scient
 
 
 ---
+## 📄 Publication
 
+This work has been published at IEEE ICST 2025:
+
+**U. Chakma et al.**, "Real-Time Landslide Early Warning System Using 
+LoRaWAN and Unsupervised AI," *2025 IEEE International Conference on 
+Sensing Technology (ICST)*, 2025.
+
+🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/document/11512451)
+----
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
