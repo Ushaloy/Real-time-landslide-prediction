@@ -189,13 +189,30 @@ jupyter notebook
 
 | Model | Accuracy | F1-Score (High Risk) | Remarks |
 |---|---|---|---|
-| Random Forest | ~88% | 0.84 | Strong baseline |
+| Random Forest | ~98% | 0.97 | Strong baseline |
 | LSTM | ~91% | 0.87 | Best for temporal patterns |
 | Autoencoder (Anomaly) | — | 0.79 AUC | Unsupervised, no labels needed |
 
 
 > *Note: Results are from field-collected data. Exact figures may vary with dataset size and hyperparameter tuning.*
+### 🧪 Physics-Informed Model (PINN) — Soil Moisture & Slope Stability
 
+Unlike the classifiers above, the PINN predicts continuous soil moisture (θ)
+constrained by the 1D Richards equation, then derives Factor of Safety (FoS)
+via the infinite-slope model — giving a physically interpretable risk score
+instead of a black-box label.
+
+| Metric | PINN | Data-only MLP baseline |
+|---|---|---|
+| Test R² (θ) | 0.945 | 0.995 |
+| Test RMSE (m³/m³) | 0.0061 | 0.0019 |
+| Richards PDE residual σ | 1.04×10⁻⁸ | 4.11×10⁻⁷ (~40× higher) |
+| FoS (mean / min) | 1.698 / 1.583 | 1.699 / 1.590 |
+
+**Note:** PINN trades a small amount of raw accuracy for physical consistency —
+its predictions obey the governing soil-moisture PDE, which matters for
+extrapolating beyond the observed rainfall range (unlike RF/LSTM/Autoencoder
+above, which are purely data-driven).
 ---
 
 ## 🔭 Research Directions & Open Problems
