@@ -274,8 +274,9 @@ Sensing Technology (ICST)*, 2025.
 🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/document/11512451)
 
 This Research published in Emerging Science Journal 
+
 Chakma, U., Chantaveerod, A., Suwannarat, K., Nag, A., & Alahi, M. E. E. (2026). A Physics-Informed, Energy-Autonomous LoRaWAN Framework for the Early Warning of Landslides. Emerging Science Journal, 10(5), 2805–2834. https://doi.org/10.28991/ESJ-2026-010-05-011
-https://ijournalse.org/index.php/ESJ/article/view/3836
+
 ----
 ## 📄 License
 
